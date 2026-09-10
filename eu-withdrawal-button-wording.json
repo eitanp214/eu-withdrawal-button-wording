@@ -1,0 +1,299 @@
+{
+  "name": "Statutory withdrawal-button wording in all 24 official EU languages",
+  "description": "The button and form-field wording Article 11a of Directive 2011/83/EU (as inserted by Directive (EU) 2023/2673) prescribes, read from the official EUR-Lex language versions rather than translated. Each language version of the Directive is equally authentic, so the wording genuinely differs per language.",
+  "version": "2026-09-10",
+  "language_count": 24,
+  "source": {
+    "instrument": "Directive (EU) 2023/2673 amending Directive 2011/83/EU",
+    "celex": "32023L2673",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L2673",
+    "applicable_from": "2026-06-19",
+    "provisions": {
+      "withdraw_button": "Art. 11a(1)(a)",
+      "confirm_button": "Art. 11a(3)",
+      "field_name": "Art. 11a(2)(a)",
+      "field_contract": "Art. 11a(2)(b)",
+      "field_email": "Art. 11a(2)(c)"
+    }
+  },
+  "verification": {
+    "date": "2026-09-10",
+    "result": "24/24",
+    "method": "every label refetched from its own official EUR-Lex language version and matched verbatim, by scripts/verify-statutory-labels.py"
+  },
+  "national_provisions": {
+    "DE": {
+      "provision": "§ 356a BGB",
+      "in_force": "2026-06-19",
+      "wording_allowance": "oder einer anderen gleichbedeutenden eindeutigen Formulierung",
+      "confirmation_wording_is_exclusive": false,
+      "acknowledgement": "unverzüglich auf einem dauerhaften Datenträger, mit dem Inhalt der Erklärung sowie Datum und Uhrzeit des Eingangs (Abs. 4)",
+      "source_url": "https://www.gesetze-im-internet.de/bgb/__356a.html"
+    },
+    "AT": {
+      "provision": "§ 13a FAGG",
+      "in_force": "2026-10-01",
+      "enacted_by": "BGBl. I Nr. 59/2026",
+      "wording_allowance": "oder einer entsprechenden eindeutigen Formulierung",
+      "confirmation_wording_is_exclusive": true,
+      "acknowledgement": "auf einem dauerhaften Datenträger, mit dem Inhalt der Erklärung sowie Datum und Uhrzeit des Eingangs (Abs. 5)",
+      "applies_to_contracts_concluded_after": "2026-09-30",
+      "ris_ids": {
+        "paragraph": "NOR40279256",
+        "transitional": "NOR40279262",
+        "annex": "NOR40279264"
+      },
+      "source_url": "https://www.ris.bka.gv.at/"
+    }
+  },
+  "license": {
+    "terms": "Free to reuse, including commercially, with attribution.",
+    "attribution": "Cooloff — https://cooloffapp.com/en/eu-withdrawal-button-wording/",
+    "canonical_page_en": "https://cooloffapp.com/en/eu-withdrawal-button-wording/",
+    "canonical_page_de": "https://cooloffapp.com/de/eu-widerrufsbutton-wortlaut/",
+    "corrections": "If a row is wrong, tell us and we will fix it here and say what was wrong, so every copy can be corrected from one place."
+  },
+  "disclaimer": "This reproduces the wording of official texts. It is not legal advice, and whether a given contract carries a right of withdrawal is a separate question (in Germany, see § 312g(2) BGB).",
+  "languages": {
+    "bg": {
+      "name_en": "Bulgarian",
+      "name_de": "Bulgarisch",
+      "withdraw_button": "Откажете се от договора тук",
+      "confirm_button": "Потвърждавам отказа",
+      "field_name": "Име",
+      "field_contract": "Данни, идентифициращи договора, от който желаете да се откажете (напр. номер на поръчка)",
+      "field_email": "Електронна поща, на която ще бъде изпратено потвърждението за отказа",
+      "carries_deictic": true
+    },
+    "cs": {
+      "name_en": "Czech",
+      "name_de": "Tschechisch",
+      "withdraw_button": "Zde odstoupit od smlouvy",
+      "confirm_button": "Potvrdit odstoupení od smlouvy",
+      "field_name": "Jméno",
+      "field_contract": "Údaje o smlouvě, od níž chcete odstoupit (např. číslo objednávky)",
+      "field_email": "E-mail, na který bude zasláno potvrzení o přijetí odstoupení od smlouvy",
+      "carries_deictic": true
+    },
+    "da": {
+      "name_en": "Danish",
+      "name_de": "Dänisch",
+      "withdraw_button": "Fortryd aftale",
+      "confirm_button": "Bekræft fortrydelse",
+      "field_name": "Navn",
+      "field_contract": "Oplysninger, der identificerer den aftale, du ønsker at fortryde (f.eks. ordrenummer)",
+      "field_email": "E-mailadresse, som bekræftelsen af fortrydelsen sendes til",
+      "carries_deictic": false
+    },
+    "de": {
+      "name_en": "German",
+      "name_de": "Deutsch",
+      "withdraw_button": "Vertrag widerrufen",
+      "confirm_button": "Widerruf bestätigen",
+      "field_name": "Ihr Name",
+      "field_contract": "Bestellnummer oder andere Angaben zur Identifizierung des Vertrags",
+      "field_email": "E-Mail-Adresse für die Eingangsbestätigung",
+      "carries_deictic": false
+    },
+    "el": {
+      "name_en": "Greek",
+      "name_de": "Griechisch",
+      "withdraw_button": "Πατήστε εδώ για υπαναχώρηση",
+      "confirm_button": "Επιβεβαίωση υπαναχώρησης",
+      "field_name": "Ονοματεπώνυμο",
+      "field_contract": "Στοιχεία που ταυτοποιούν τη σύμβαση από την οποία επιθυμείτε να υπαναχωρήσετε (π.χ. αριθμός παραγγελίας)",
+      "field_email": "Ηλεκτρονική διεύθυνση στην οποία θα αποσταλεί η επιβεβαίωση της υπαναχώρησης",
+      "carries_deictic": true
+    },
+    "en": {
+      "name_en": "English",
+      "name_de": "Englisch",
+      "withdraw_button": "Withdraw from contract here",
+      "confirm_button": "Confirm withdrawal",
+      "field_name": "Your name",
+      "field_contract": "Order number or other details identifying the contract",
+      "field_email": "Email address for the acknowledgement of receipt",
+      "carries_deictic": true
+    },
+    "es": {
+      "name_en": "Spanish",
+      "name_de": "Spanisch",
+      "withdraw_button": "Desistir del contrato aquí",
+      "confirm_button": "Confirmar desistimiento",
+      "field_name": "Nombre",
+      "field_contract": "Datos que identifiquen el contrato del que desea desistir (p. ej. número de pedido)",
+      "field_email": "Correo electrónico al que se enviará la confirmación del desistimiento",
+      "carries_deictic": true
+    },
+    "et": {
+      "name_en": "Estonian",
+      "name_de": "Estnisch",
+      "withdraw_button": "Taganen lepingust",
+      "confirm_button": "Kinnitan taganemise",
+      "field_name": "Nimi",
+      "field_contract": "Andmed selle lepingu tuvastamiseks, millest soovite taganeda (nt tellimuse number)",
+      "field_email": "E-posti aadress, kuhu saadetakse taganemisteate kättesaamise kinnitus",
+      "carries_deictic": false
+    },
+    "fi": {
+      "name_en": "Finnish",
+      "name_de": "Finnisch",
+      "withdraw_button": "Peruuta sopimus tästä",
+      "confirm_button": "Vahvista peruuttaminen",
+      "field_name": "Nimi",
+      "field_contract": "Tiedot sopimuksesta, jonka haluat peruuttaa (esim. tilausnumero)",
+      "field_email": "Sähköpostiosoite, johon peruuttamisvahvistus lähetetään",
+      "carries_deictic": true
+    },
+    "fr": {
+      "name_en": "French",
+      "name_de": "Französisch",
+      "withdraw_button": "Renoncer au contrat ici",
+      "confirm_button": "Confirmer la rétractation",
+      "field_name": "Votre nom",
+      "field_contract": "Numéro de commande ou autres indications permettant d'identifier le contrat",
+      "field_email": "Adresse e-mail pour l'accusé de réception",
+      "carries_deictic": true
+    },
+    "ga": {
+      "name_en": "Irish",
+      "name_de": "Irisch",
+      "withdraw_button": "Tarraing siar ón gconradh anseo",
+      "confirm_button": "Dearbhaigh an tarraingt siar",
+      "field_name": "Ainm",
+      "field_contract": "Mionsonraí lena sainaithnítear an conradh ar mian leat tarraingt siar uaidh (m.sh. uimhir an ordaithe)",
+      "field_email": "Seoladh ríomhphoist chuig a seolfar admháil go bhfuarthas an tarraingt siar",
+      "carries_deictic": true
+    },
+    "hr": {
+      "name_en": "Croatian",
+      "name_de": "Kroatisch",
+      "withdraw_button": "Odustati od ugovora",
+      "confirm_button": "Potvrditi odustajanje",
+      "field_name": "Ime",
+      "field_contract": "Pojedinosti o ugovoru od kojeg želite odustati (npr. broj narudžbe)",
+      "field_email": "E-adresa na koju se šalje potvrda o odustajanju",
+      "carries_deictic": false
+    },
+    "hu": {
+      "name_en": "Hungarian",
+      "name_de": "Ungarisch",
+      "withdraw_button": "Elállás a szerződéstől",
+      "confirm_button": "Elállás megerősítése",
+      "field_name": "Név",
+      "field_contract": "A szerződést azonosító adatok, amelytől el kíván állni (pl. rendelésszám)",
+      "field_email": "E-mail-cím, amelyre az elállás megerősítését küldjük",
+      "carries_deictic": false
+    },
+    "it": {
+      "name_en": "Italian",
+      "name_de": "Italienisch",
+      "withdraw_button": "Recedere dal contratto qui",
+      "confirm_button": "Conferma recesso",
+      "field_name": "Nome",
+      "field_contract": "Informazioni che identificano il contratto dal quale intende recedere (es. numero d'ordine)",
+      "field_email": "E-mail a cui sarà inviata la conferma del recesso",
+      "carries_deictic": true
+    },
+    "lt": {
+      "name_en": "Lithuanian",
+      "name_de": "Litauisch",
+      "withdraw_button": "Atsisakyti sutarties čia",
+      "confirm_button": "Patvirtinti sutarties atsisakymą",
+      "field_name": "Vardas, pavardė",
+      "field_contract": "Sutarties, kurios norite atsisakyti, identifikavimo duomenys (pvz., užsakymo numeris)",
+      "field_email": "El. pašto adresas, kuriuo bus išsiųstas sutarties atsisakymo gavimo patvirtinimas",
+      "carries_deictic": true
+    },
+    "lv": {
+      "name_en": "Latvian",
+      "name_de": "Lettisch",
+      "withdraw_button": "Atteikties no līguma",
+      "confirm_button": "Apstiprināt atteikumu",
+      "field_name": "Vārds, uzvārds",
+      "field_contract": "Informācija, kas ļauj identificēt līgumu, no kura vēlaties atteikties (piem., pasūtījuma numurs)",
+      "field_email": "E-pasta adrese, uz kuru tiks nosūtīts apstiprinājums par atteikuma saņemšanu",
+      "carries_deictic": false
+    },
+    "mt": {
+      "name_en": "Maltese",
+      "name_de": "Maltesisch",
+      "withdraw_button": "Irtira mill-kuntratt hawnhekk",
+      "confirm_button": "Ikkonferma r-reċess",
+      "field_name": "Isem",
+      "field_contract": "Dettalji li jidentifikaw il-kuntratt li minnu tixtieq tirtira (eż. numru tal-ordni)",
+      "field_email": "Indirizz tal-email fejn tintbagħat il-konferma tar-reċess",
+      "carries_deictic": true
+    },
+    "nl": {
+      "name_en": "Dutch",
+      "name_de": "Niederländisch",
+      "withdraw_button": "Hier de overeenkomst herroepen",
+      "confirm_button": "Herroeping bevestigen",
+      "field_name": "Naam",
+      "field_contract": "Gegevens ter identificatie van de overeenkomst die u wenst te herroepen (bv. bestelnummer)",
+      "field_email": "E-mailadres waarnaar de bevestiging van de herroeping wordt verstuurd",
+      "carries_deictic": true
+    },
+    "pl": {
+      "name_en": "Polish",
+      "name_de": "Polnisch",
+      "withdraw_button": "Odstąp od umowy tutaj",
+      "confirm_button": "Potwierdź odstąpienie od umowy",
+      "field_name": "Imię i nazwisko",
+      "field_contract": "Dane identyfikujące umowę, od której chcesz odstąpić (np. numer zamówienia)",
+      "field_email": "Adres e-mail, na który zostanie przesłane potwierdzenie odstąpienia od umowy",
+      "carries_deictic": true
+    },
+    "pt": {
+      "name_en": "Portuguese",
+      "name_de": "Portugiesisch",
+      "withdraw_button": "Retrate-se do contrato aqui",
+      "confirm_button": "Confirmar retratação",
+      "field_name": "Nome",
+      "field_contract": "Informações que identifiquem o contrato do qual pretende retratar-se (p. ex. número da encomenda)",
+      "field_email": "E-mail para o qual será enviada a confirmação da retratação",
+      "carries_deictic": true
+    },
+    "ro": {
+      "name_en": "Romanian",
+      "name_de": "Rumänisch",
+      "withdraw_button": "Retrageți-vă din contract aici",
+      "confirm_button": "Confirmați retragerea",
+      "field_name": "Nume",
+      "field_contract": "Detalii de identificare a contractului din care doriți să vă retrageți (de ex. numărul comenzii)",
+      "field_email": "Adresa de e-mail la care va fi trimisă confirmarea retragerii",
+      "carries_deictic": true
+    },
+    "sk": {
+      "name_en": "Slovak",
+      "name_de": "Slowakisch",
+      "withdraw_button": "Odstúpiť od zmluvy tu",
+      "confirm_button": "Potvrdiť odstúpenie od zmluvy",
+      "field_name": "Meno",
+      "field_contract": "Údaje identifikujúce zmluvu, od ktorej chcete odstúpiť (napr. číslo objednávky)",
+      "field_email": "E-mail, na ktorý sa zašle potvrdenie o prijatí odstúpenia od zmluvy",
+      "carries_deictic": true
+    },
+    "sl": {
+      "name_en": "Slovenian",
+      "name_de": "Slowenisch",
+      "withdraw_button": "Kliknite tukaj za odstop od pogodbe",
+      "confirm_button": "Potrdi odstop od pogodbe",
+      "field_name": "Ime",
+      "field_contract": "Podatki o pogodbi, od katere želite odstopiti (npr. številka naročila)",
+      "field_email": "E-naslov, na katerega bo poslano potrdilo o prejemu odstopa od pogodbe",
+      "carries_deictic": true
+    },
+    "sv": {
+      "name_en": "Swedish",
+      "name_de": "Schwedisch",
+      "withdraw_button": "Ångra avtalet här",
+      "confirm_button": "Bekräfta frånträde",
+      "field_name": "Namn",
+      "field_contract": "Uppgifter som identifierar det avtal du önskar frånträda (t.ex. ordernummer)",
+      "field_email": "E-postadress dit bekräftelsen av frånträdet skickas",
+      "carries_deictic": true
+    }
+  }
+}
