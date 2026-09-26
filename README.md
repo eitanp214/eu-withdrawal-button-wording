@@ -25,7 +25,7 @@ curl -O https://cooloffapp.com/data/eu-withdrawal-button-wording.json
 |---|---|
 | `withdraw_button` | the label on the button that opens the withdrawal — Art. 11a(1)(a) |
 | `confirm_button` | the label on the confirmation button at the end of the form — Art. 11a(3) |
-| `field_name` · `field_contract` · `field_email` | the three form fields — Art. 11a(2)(a)–(c) |
+| `field_name` · `field_contract` · `field_email` | labels for the three items of information Art. 11a(2)(a)–(c) requires the form to collect. **The Directive prescribes no wording for these fields.** The labels are our renderings in each language, not quotations |
 | `carries_deictic` | whether the official label names a place (“here”, “ici”, “hier”) |
 
 Plus `national_provisions` for Germany (§ 356a BGB, in force 19 June 2026) and Austria
@@ -33,7 +33,7 @@ Plus `national_provisions` for Germany (§ 356a BGB, in force 19 June 2026) and 
 
 ## The detail that gets lost in transcription
 
-The English reads “Withdraw from contract **here**” and the French “Renoncer au contrat **ici****”,
+The English button reads “Withdraw from contract **here**” and the French “Renoncer au contrat **ici**”,
 so the deictic looks universal. It is not. **6 language versions have no “here” at
 all**: Danish, German, Estonian, Croatian, Hungarian, Latvian.
 
@@ -57,10 +57,17 @@ and is enacted by BGBl. I Nr. 59/2026 — RIS document `NOR40279256`, transition
 
 ## Where the rows come from, and how they stay right
 
-Source: `CELEX:32023L2673` on EUR-Lex — Art. 11a(1)(a) and (3) for the buttons, (2)(a)–(c) for the
-fields. **A script refetches all 24 official language versions and asserts that every
-label appears verbatim in its own version.** The run recorded in `verification` returned
-**24/24** on 2026-09-10.
+Source: `CELEX:32023L2673` on EUR-Lex. The two button labels are quoted from Art. 11a(1)(a) and
+Art. 11a(3). **Only these two labels are checked against the official texts:** a script refetches
+all 24 official language versions and asserts that both button labels appear verbatim in
+their own version (after normalising quotes, dashes, whitespace and the capitalised first letter).
+The run recorded in `verification` returned **24/24** on
+2026-09-10.
+
+The three field labels are **not** checked, because there is nothing to check them against:
+Art. 11a(2)(a)–(c) lists the information the form must ask for (name, contract details, e-mail
+address for the acknowledgement) without prescribing a label. Treat them as a sensible rendering,
+not as statutory text.
 
 Found a row that is wrong? Open an issue. We will fix it, say what was wrong, and the fix reaches
 every copy from here.
@@ -96,8 +103,9 @@ every copy from here.
 
 ## Licence
 
-**CC BY 4.0** — see `LICENSE`. The underlying statutory text is from official EU sources; the
-compilation, the derived fields and the national notes are the part this licence covers.
+**CC BY 4.0** — see `LICENSE`. The button wording is statutory text from official EU sources; the
+compilation, the field-label renderings, the derived fields and the national notes are the part
+this licence covers.
 
 Attribute as: *Cooloff — https://cooloffapp.com/en/eu-withdrawal-button-wording/*
 

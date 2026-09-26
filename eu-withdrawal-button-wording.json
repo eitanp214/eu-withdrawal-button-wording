@@ -1,6 +1,6 @@
 {
   "name": "Statutory withdrawal-button wording in all 24 official EU languages",
-  "description": "The button and form-field wording Article 11a of Directive 2011/83/EU (as inserted by Directive (EU) 2023/2673) prescribes, read from the official EUR-Lex language versions rather than translated. Each language version of the Directive is equally authentic, so the wording genuinely differs per language.",
+  "description": "The button wording Article 11a of Directive 2011/83/EU (as inserted by Directive (EU) 2023/2673) prescribes, read from the official EUR-Lex language versions rather than translated, with form-field labels rendering the three items of information Art. 11a(2) requires. The Directive prescribes no wording for the fields, so those labels are not quotations. Each language version of the Directive is equally authentic, so the button wording genuinely differs per language.",
   "version": "2026-09-10",
   "language_count": 24,
   "source": {
@@ -19,7 +19,7 @@
   "verification": {
     "date": "2026-09-10",
     "result": "24/24",
-    "method": "every label refetched from its own official EUR-Lex language version and matched verbatim, by scripts/verify-statutory-labels.py"
+    "method": "both button labels refetched from their own official EUR-Lex language version and matched verbatim, by scripts/verify-statutory-labels.py; the field labels are renderings and are not checked against the text"
   },
   "national_provisions": {
     "DE": {
@@ -150,7 +150,7 @@
       "name_de": "Französisch",
       "withdraw_button": "Renoncer au contrat ici",
       "confirm_button": "Confirmer la rétractation",
-      "field_name": "Votre nom",
+      "field_name": "Nom et prénom",
       "field_contract": "Numéro de commande ou autres indications permettant d'identifier le contrat",
       "field_email": "Adresse e-mail pour l'accusé de réception",
       "carries_deictic": true
